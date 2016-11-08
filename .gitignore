@@ -1,0 +1,76 @@
+####################
+# TYPO3 - Project
+# Stand 2015.12.10
+####################
+  
+# Compiled source
+####################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+  
+# Packages
+####################
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+  
+# Logs and databases
+####################
+*.log
+  
+# OS generated files
+####################
+.ApplDouble
+.LSOverride
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+  
+# Sass
+####################
+.sass-cache
+*.css.map
+  
+# Own excludes TYPO3
+# Looks fancy to you? Take a look at https://git-scm.com/docs/gitignore#_examples
+# You have to include a subfolder, exclude it's content and include single files again.
+######################
+/vendor
+# Ignore web folder
+/web/*
+# But track .htaccess
+!/web/.htaccess
+# Ignore typo3conf
+!/web/typo3conf
+/web/typo3conf/*
+# But track the following files
+!/web/typo3conf/AdditionalConfiguration.php
+!/web/typo3conf/LocalConfiguration.php
+!/web/typo3conf/PackageStates.php
+# Ignore Extensions
+!/web/typo3conf/ext
+/web/typo3conf/ext/*
+# But track wv_site
+!/web/typo3conf/ext/wv_site*
+ 
+# Own other excludes
+######################
+/mysqldump
