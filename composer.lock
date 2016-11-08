@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "48c3322a12a12d705b40c8f7653c6b36",
-    "content-hash": "32b8c9a4342c6514df73892f54ed6d23",
+    "hash": "281c4f05a811140a60608851275de948",
+    "content-hash": "2889854c51b907993af7901f413ccee7",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -111,6 +111,43 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "gridelementsteam/gridelements",
+            "version": "7.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.typo3.org/TYPO3CMS/Extensions/gridelements.git",
+                "reference": "29f5d0e9cc72e152f378bff3ec491c7cf2deeb97"
+            },
+            "require": {
+                "typo3/cms-core": ">=7.6.2,<8.0"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.0.5"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GridElementsTeam\\Gridelements\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "This extension integrates the grid layout concept to regular content elements.",
+            "homepage": "https://git.typo3.org/TYPO3CMS/Extensions/gridelements.git",
+            "keywords": [
+                "Gridelements",
+                "Grids",
+                "TYPO3 CMS"
+            ],
+            "support": {
+                "issues": "https://forge.typo3.org/"
+            },
+            "time": "2016-01-29 12:04:40"
         },
         {
             "name": "mso/idna-convert",
