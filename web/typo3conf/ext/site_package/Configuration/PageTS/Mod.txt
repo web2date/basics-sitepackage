@@ -1,0 +1,32 @@
+mod {
+    web_layout {
+        BackendLayouts {
+            OneColumn {
+                title = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:backendlayouts.onecolumn
+                config {
+                    backend_layout {
+                        colCount = 3
+                        rowCount = 1
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:backendlayouts.columns.content
+                                        colPos = 0
+                                        colspan = 2
+                                    }
+
+                                    2 {
+                                        name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:backendlayouts.columns.sidebar
+                                        colPos = 1
+                                        allowed = header
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-12-16T18:00:00Z"
+          product-name="site_package">
+        <header/>
+        <body>
+            <trans-unit id="backendlayouts.onecolumn">
+                <source>OneColumn</source>
+            </trans-unit>
+            <trans-unit id="backendlayouts.columns.content">
+                <source>Content</source>
+            </trans-unit>
+            <trans-unit id="backendlayouts.columns.sidebar">
+                <source>Sidebar</source>
+            </trans-unit>
+
+            <trans-unit id="gridelements.2Columns_50.title">
+                <source>2 Columns: 50% - 50%</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_50.column.1">
+                <source>First Column 50% (Top, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_50.column.2">
+                <source>Last Column 50% (Below, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_33_66.title">
+                <source>2 Columns: 33% - 66%</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_33_66.column.1">
+                <source>First Column 33% (Top, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_33_66.column.2">
+                <source>Last Column 66% (Below, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_66_33.title">
+                <source>2 Columns: 66% - 33%</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_66_33.column.1">
+                <source>First Column 66% (Top, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2Columns_66_33.column.2">
+                <source>Last Column 33% (Below, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.3Columns_33.title">
+                <source>3 Columns: 33% - 33% - 33%</source>
+            </trans-unit>
+            <trans-unit id="gridelements.3Columns_33.column.1">
+                <source>First Column 33% (Top, on small and middle sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.3Columns_33.column.2">
+                <source>Middle Column 33% (Between, on small and middle sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.3Columns_33.column.3">
+                <source>Last Column 33% (Below, on small and middle sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4Columns_25.title">
+                <source>4 Columns: 25% - 25% - 25% - 25%</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4Columns_25.column.1">
+                <source>First Column 25% (Top, on small sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4Columns_25.column.2">
+                <source>Second Column 25% (Beside first column, on middle sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4Columns_25.column.3">
+                <source>Third Column 25% (On new row, on middle sized devices)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4Columns_25.column.4">
+                <source>Last Column 25% (Beside third column, on middle sized devices)</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

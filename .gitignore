@@ -69,7 +69,7 @@ $RECYCLE.BIN/
 !/web/typo3conf/ext
 /web/typo3conf/ext/*
 # But track wv_site
-!/web/typo3conf/ext/wv_site*
+!/web/typo3conf/ext/site_package*
  
 # Own other excludes
 ######################

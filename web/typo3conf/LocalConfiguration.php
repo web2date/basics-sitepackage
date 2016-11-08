@@ -1,10 +1,11 @@
 <?php
 return [
     'BE' => [
-        'debug' => true,
+        'debug' => false,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$P$CN1gKlAN84LCukZEe.I6ue0DboXpuM/',
         'loginSecurityLevel' => 'rsa',
+        'versionNumberInFilename' => '0',
     ],
     'DB' => [
         'database' => 'work_t3_basics',
@@ -15,19 +16,24 @@ return [
     ],
     'EXT' => [
         'extConf' => [
-            'gridelements' => 'a:2:{s:20:"additionalStylesheet";s:0:"";s:19:"nestingInListModule";s:1:"0";}',
+            'gridelements' => 'a:2:{s:20:"additionalStylesheet";s:0:"";s:19:"nestingInListModule";s:1:"1";}',
+            'realurl' => 'a:5:{s:10:"configFile";s:60:"typo3conf/ext/site_package/Configuration/PHP/RealurlConf.php";s:14:"enableAutoConf";s:1:"0";s:14:"autoConfFormat";s:1:"1";s:12:"enableDevLog";s:1:"0";s:10:"moduleIcon";s:1:"0";}',
             'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
             'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+            'scheduler' => 'a:4:{s:11:"maxLifetime";s:4:"1440";s:11:"enableBELog";s:1:"1";s:15:"showSampleTasks";s:1:"1";s:11:"useAtdaemon";s:1:"0";}',
+            'site_package' => 'a:0:{}',
         ],
     ],
     'EXTCONF' => [
         'lang' => [
-            'availableLanguages' => [],
+            'availableLanguages' => [
+                'de',
+            ],
         ],
     ],
     'FE' => [
         'cHashIncludePageId' => true,
-        'debug' => true,
+        'debug' => false,
         'loginSecurityLevel' => 'rsa',
     ],
     'GFX' => [
@@ -47,7 +53,6 @@ return [
             'TYPO3\CMS\Install\Updates\BackendUserStartModuleUpdate' => 1,
             'TYPO3\CMS\Install\Updates\Compatibility6ExtractionUpdate' => 1,
             'TYPO3\CMS\Install\Updates\ContentTypesToTextMediaUpdate' => 1,
-            'TYPO3\CMS\Install\Updates\ExtensionManagerTables' => 1,
             'TYPO3\CMS\Install\Updates\FileListIsStartModuleUpdate' => 1,
             'TYPO3\CMS\Install\Updates\FilesReplacePermissionUpdate' => 1,
             'TYPO3\CMS\Install\Updates\LanguageIsoCodeUpdate' => 1,
@@ -81,17 +86,17 @@ return [
                 ],
             ],
         ],
-        'clearCacheSystem' => true,
-        'devIPmask' => '*',
-        'displayErrors' => 1,
-        'enableDeprecationLog' => 'file',
+        'clearCacheSystem' => '1',
+        'devIPmask' => '',
+        'displayErrors' => 0,
+        'enableDeprecationLog' => false,
         'encryptionKey' => '82d5c2ad51c706e6976a9220f3d522d59d66f0414c9daa42fa1513b1305fc755120afebbcf22745c31def3cede943780',
-        'exceptionalErrors' => 28674,
+        'exceptionalErrors' => 20480,
         'isInitialDatabaseImportDone' => true,
         'isInitialInstallationInProgress' => false,
         'sitename' => 'Basics - LIVE',
-        'sqlDebug' => 1,
-        'systemLogLevel' => 0,
+        'sqlDebug' => 0,
+        'systemLogLevel' => 2,
         't3lib_cs_convMethod' => 'mbstring',
         't3lib_cs_utils' => 'mbstring',
     ],

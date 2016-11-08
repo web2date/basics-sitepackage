@@ -1,0 +1,150 @@
+tx_gridelements {
+    # If this option is set the record configuration overrides the TSconfig.
+    overruleRecords = 1
+    setup {
+        2Columns_50 {
+            title = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_50.title
+            config {
+                colCount = 2
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_50.column.1
+                                colPos = 0
+                                allowed = *
+                            }
+
+                            2 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_50.column.2
+                                colPos = 1
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        2Columns_66_33 {
+            title = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_66_33.title
+            config {
+                colCount = 3
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_66_33.column.1
+                                colspan = 2
+                                colPos = 0
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            2 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_66_33.column.2
+                                colPos = 1
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        2Columns_33_66 {
+            title = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_33_66.title
+            config {
+                colCount = 3
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_33_66.column.1
+                                colPos = 0
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            2 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.2Columns_33_66.column.2
+                                colspan = 2
+                                colPos = 1
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        3Columns_33 {
+            title = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.3Columns_33.title
+            config {
+                colCount = 3
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.3Columns_33.column.1
+                                colPos = 0
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            2 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.3Columns_33.column.2
+                                colPos = 1
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            3 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.3Columns_33.column.3
+                                colPos = 2
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        4Columns_25 {
+            title = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.4Columns_25.title
+            config {
+                colCount = 4
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.4Columns_25.column.1
+                                colPos = 0
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            2 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.4Columns_25.column.2
+                                colPos = 1
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            3 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.4Columns_25.column.3
+                                colPos = 2
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+
+                            4 {
+                                name = LLL:EXT:site_package/Resources/Private/Language/Backend.xlf:gridelements.4Columns_25.column.4
+                                colPos = 3
+                                allowed < tx_gridelements.setup.2Columns_50.config.rows.1.columns.1.allowed
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

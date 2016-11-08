@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-12-16T18:00:00Z"
+          product-name="site_package">
+        <header/>
+        <body>
+            <trans-unit id="backendlayouts.onecolumn">
+                <source>OneColumn</source>
+                <target>Einspaltig</target>
+            </trans-unit>
+            <trans-unit id="backendlayouts.columns.content">
+                <source>Content</source>
+                <target>Hauptinhalt</target>
+            </trans-unit>
+            <trans-unit id="backendlayouts.columns.sidebar">
+                <source>Sidebar</source>
+                <target>Seitenspalte</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
