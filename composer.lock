@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "281c4f05a811140a60608851275de948",
-    "content-hash": "2889854c51b907993af7901f413ccee7",
+    "hash": "cc99853e4b8079191e60395b6a6c83b1",
+    "content-hash": "b765f4989bba8c4ea211d67ebc732f02",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -682,6 +682,43 @@
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
             "time": "2016-09-16 16:53:37"
+        },
+        {
+            "name": "typo3-ter/realurl",
+            "version": "2.1.5",
+            "dist": {
+                "type": "t3x",
+                "url": "https://typo3.org/extensions/repository/download/realurl/2.1.5/t3x/",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">= 5.4.0, <= 7.0.999",
+                "typo3/cms-core": ">= 6.2.0, <= 8.4.999"
+            },
+            "conflict": {
+                "typo3-ter/cooluri": "*",
+                "typo3-ter/simulatestatic": "*"
+            },
+            "replace": {
+                "realurl": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "DmitryDulepov\\Realurl\\": "Classes"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Dmitry Dulepov",
+                    "email": "dmitry.dulepov@gmail.com",
+                    "company": "",
+                    "username": "dmitry"
+                }
+            ],
+            "description": "Makes TYPO3 URLs search engine friendly. Donations are welcome to dmitry.dulepov@gmail.com. They help to support the extension!",
+            "time": "2016-11-03 15:50:58"
         },
         {
             "name": "typo3/class-alias-loader",
