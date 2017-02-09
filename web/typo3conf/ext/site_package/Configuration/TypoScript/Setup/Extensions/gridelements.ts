@@ -42,13 +42,13 @@ tt_content.gridelements_pi1.20.10.setup {
     3Columns_33 {
         columns {
             0 < .default
-            0.wrap = <div class="col-md-3">|</div>
+            0.wrap = <div class="col-md-4">|</div>
 
             1 < .default
-            1.wrap = <div class="col-md-3">|</div>
+            1.wrap = <div class="col-md-4">|</div>
 
             2 < .default
-            2.wrap = <div class="col-md-3">|</div>
+            2.wrap = <div class="col-md-4">|</div>
         }
     }
 
